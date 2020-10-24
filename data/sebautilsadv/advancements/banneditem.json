@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Craft a Banned Item",
+            "color": "red"
+        },
+        "description": {
+            "text": "You must underestimate the power of Seba..",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "sebautils": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 5
+    },
+    "parent": "sebautilsadv:root"
+}
